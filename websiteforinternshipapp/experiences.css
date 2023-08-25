@@ -1,0 +1,117 @@
+/*removes bullet points basically*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*For the body*/
+body {
+    height: 100%;
+    background-color: white;
+    
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    padding:45px;
+    width: 1000px;
+    margin: 0 auto;
+
+    font-family: 'Gaegu', cursive;
+
+ 
+}
+
+
+.nav{
+    padding: 50px;
+    
+
+}
+
+li.nav-item{
+    background-color: rgb(255, 232, 235);
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+}
+
+li.nav-item a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+li.nav-item a:hover{
+    background-color: rgb(233, 233, 233);
+   
+}
+
+
+
+main{
+    background-color: white;
+    
+    
+}
+
+h1{
+    padding: 30px;
+    font-weight: normal;
+    text-align: center;
+    /*
+    word-spacing: 100px;
+    border: 6px solid black;
+    */
+    text-decoration: underline;
+    font-size-adjust: 0.5;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h2{
+    margin-top: 150px;
+    font-size: 40px;
+}
+h3{
+    margin-top: 75px;
+    font-size: 30px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.flex-item{
+    flex-basis: 100%;
+}
+
+img{
+    width: 50%;
+    margin-left: 20%;
+}
+
+.attribute{
+    margin-left: 65%;
+}
+
+.desc{
+    margin-top: 10%;
+}
+
+.organizations{
+    margin-bottom: 20%;
+}
+
+.ENGin{
+    margin-bottom: 20%;
+}

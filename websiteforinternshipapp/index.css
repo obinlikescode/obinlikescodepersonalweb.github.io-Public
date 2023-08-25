@@ -1,0 +1,186 @@
+/*removes bullet points basically*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*For the body*/
+body {
+    height: 100%;
+    background-color: white;
+    
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    padding:45px;
+    width: 1000px;
+    margin: 0 auto;
+
+    font-family: 'Gaegu', cursive;
+
+ 
+}
+
+
+.nav{
+    padding: 50px;
+    
+
+}
+
+li.nav-item{
+    background-color: rgb(255, 232, 235);
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+}
+
+li.nav-item a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+li.nav-item a:hover{
+    background-color: rgb(233, 233, 233);
+   
+}
+
+
+
+main{
+    background-color: white;
+    
+    
+}
+
+h1{
+    padding: 30px;
+    font-weight: normal;
+    text-align: center;
+    /*
+    word-spacing: 100px;
+    border: 6px solid black;
+    */
+    text-decoration: underline;
+    font-size-adjust: 0.5;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.welcome{
+    padding: 100px;
+    padding-top: 150px;
+    font-size: 60px;
+
+}
+
+h2{
+    padding-bottom: 30px;
+   
+    
+}
+
+.me{
+    width: 400px;
+    border-radius: 200px;
+    border: solid black;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+    
+}
+
+.flex-items{
+    flex-basis: 100%;
+    margin: 50%;
+}
+
+.welcomeDesc{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 30px;
+    background-color: rgb(216, 235, 246);
+
+}
+
+.attribute{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+background-color: rgb(216, 235, 246);
+margin-left: 30px;
+
+}
+
+.funfacts{
+    margin-top: 400px;
+    font-size: 60px;
+    
+
+}
+
+.funfactsdesc{
+    font-size: 40px;
+    margin-top: 100px;
+    background-color: rgb(216, 235, 246);
+
+}
+
+.boba{
+    width: 75%;
+ margin-left: 10%;
+ border: 3px solid rgba(232, 125, 125, 0.422);
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.flex-item2{
+    flex-basis: 100%;
+  
+}
+
+.funfacts{
+    padding-bottom: 150px;
+}
+
+.funfactsDiv{
+        padding-top: 150px;
+       
+
+}
+
+.flex-container3{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.funfactsDesc2{
+    font-size: 40px;
+    margin-top: 50px;
+    background-color: rgb(216, 235, 246);
+
+}
+
+.cat{
+    width: 85%;
+    margin-left: 10%;
+    border: solid lightpink 
+    
+}
